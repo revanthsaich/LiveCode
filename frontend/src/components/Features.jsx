@@ -1,13 +1,13 @@
-import { FiCode, FiCpu, FiGlobe, FiAperture, FiDatabase, FiUsers, FiMonitor, FiSettings } from "react-icons/fi";
+import { FiCode, FiLayout, FiGlobe, FiAperture, FiDatabase, FiSmartphone, FiMonitor, FiSettings } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const features = [
   { icon: <FiCode />, title: "Real-Time Preview", desc: "See live changes as you write HTML, CSS, and JavaScript." },
-  { icon: <FiCpu />, title: "AI Code Assistance", desc: "Smart suggestions to enhance your coding experience." },
   { icon: <FiGlobe />, title: "Multi-Project Support", desc: "Create and manage multiple coding projects with ease." },
+  { icon: <FiLayout />, title: "Flexible Editor Layout", desc: "Customize your workspace with resizable and draggable panels." },
   { icon: <FiAperture />, title: "Customizable Layout", desc: "Personalize your workspace with flexible layout options." },
   { icon: <FiDatabase />, title: "Cloud Storage", desc: "Securely store your projects and access them from anywhere." },
-  { icon: <FiUsers />, title: "Collaboration Tools", desc: "Work together in real time with teammates and friends." },
+  { icon: <FiSmartphone />, title: "Responsive Design Testing", desc: "Preview and test your code on different screen sizes." },
   { icon: <FiMonitor />, title: "Device Compatibility", desc: "Optimized for desktop and mobile development." },
   { icon: <FiSettings />, title: "Theme & Code Settings", desc: "Tailor the coding environment to your preferences." }
 ];
