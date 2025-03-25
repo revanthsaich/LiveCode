@@ -57,7 +57,7 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-base-100 fixed w-full shadow-lg z-50">
       <div className="navbar-start">
-        <div className="flex items-center gap-2 pl-2 cursor-default">
+        <div className="flex items-center gap-2 pl-2 cursor-pointer">
           <FaCode size={30} />
           <span className="text-xl font-bold"  onClick={() => navigate("/")}>CodeCraft</span>
         </div>
